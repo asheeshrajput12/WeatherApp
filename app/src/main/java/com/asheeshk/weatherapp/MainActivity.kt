@@ -12,6 +12,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.asheeshk.weatherapp.ui.theme.WeatherAppTheme
+import com.asheeshk.weatherapp.ui.view.CarParkingAnimatedView
+import com.asheeshk.weatherapp.ui.view.ModalSheet
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,6 +26,8 @@ class MainActivity : ComponentActivity() {
                         name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
+                        // ModalSheet()
+                    CarParkingAnimatedView()
                 }
             }
         }
